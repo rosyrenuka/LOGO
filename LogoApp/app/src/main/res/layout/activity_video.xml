@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fef0ec"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hp.logo.VideoActivity">
+
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="05dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/youtube_player"
+        >
+
+    </com.google.android.youtube.player.YouTubePlayerView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+   android:textColor="#FF4081"
+        android:text="kuluu manali to PM to visit next Mon and interested"
+        android:id="@+id/videotext1"
+        android:textStyle="bold"
+        android:textSize="22dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="10dp"
+       android:textColor="#007FFF"
+        android:layout_marginRight="10dp"
+        android:text="kuluu manali to PM to visit next Monday and s"
+        android:id="@+id/videotext2"
+        android:textStyle="italic"
+        android:textSize="18dp" />
+
+</RelativeLayout>
